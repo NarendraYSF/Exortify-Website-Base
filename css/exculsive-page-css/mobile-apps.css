@@ -1,0 +1,106 @@
+
+/* Exclusive Page CSS - Mobile Apps */
+
+body {
+	font-weight: normal
+}
+
+.huge-number {
+	font-size: 40px;
+    padding-right: 15px;
+}
+
+.bg-blue {
+    background-color: #1080F2;
+	color: #ececec
+}
+
+.blue {
+	color: #1080F2;;
+}
+
+.bg-blue input-placeholder,
+.bg-blue ::-webkit-input-placeholder {
+    color: #ececec
+}
+
+.btn-style-2 {
+	background-color: #1080F2 !important;
+	border: 1px solid transparent !important;
+}
+
+.btn-style-2:hover {
+	color: #1080F2 !important;
+	border: 1px solid #1080F2 !important;
+}
+
+.os {
+	display: table;
+	position: relative
+}
+
+.os li {
+	float: left;
+	font-size: 25px;
+	padding-right: 30px;
+}
+
+.android {
+	color: #97C024;
+}
+
+.microsoft {
+	color: #01ACF2
+}
+
+.team-style-3 .social-icon li a,
+.progress-bar {
+	background-color: #01ACF2
+}
+
+.parallax-overlay-dark:before {
+	background-color: rgba(1, 172, 242, 0.61)
+}
+
+.list li:before {
+	color: #1080F2;
+	font-size: 18px
+}
+
+.owl-pagi-1 .owl-pagination .owl-page.active span, .owl-pagi-1 .owl-pagination .owl-page:hover span {
+    background-color: #1080F2;
+    height: 7px;
+    width: 7px;
+    box-shadow: 0 0 0 2px #1080F2;
+}
+
+.owl-pagi-1 .owl-pagination .owl-page span {
+    border: 1px solid #1080F2;
+}
+
+.iphone {
+	position: relative;
+	max-width: 408px
+}
+
+.apps-showcase .owl-carousel {
+	position: absolute;
+	width: 69.2%;
+    top: 12.3%;
+    left: 14.5%;
+}
+
+
+@media (min-width: 499px) and (max-width: 991px) {
+	.apps-showcase .owl-carousel {
+		width: 57.3%;
+        left: 20.3%;
+	}
+}
+
+@media (min-width: 464px) and (max-width: 498px) {
+	.apps-showcase .owl-carousel {
+	       width: 59.2%;
+          left: 19.5%;
+	}
+}

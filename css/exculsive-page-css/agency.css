@@ -1,0 +1,61 @@
+
+/* Exclusive Page CSS - Agency */
+
+body {
+	font-weight: normal
+}
+
+section {
+	border-bottom: 0px
+}
+
+.huge-number {
+	font-size: 40px;
+    padding-right: 15px;
+}
+
+.features-1 .features-menu {
+	text-align: left
+}
+
+.features-1 .nav-tabs li a {
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.features-1 .features-menu i:after {
+	bottom: -20px;
+    left: 0px;
+}
+
+.folio-fillter-3 .iso-button {
+	display: block;
+	color: #777;
+	letter-spacing: 3px;
+}
+
+.folio-fillter-3 .iso-button:hover,
+.folio-fillter-3 .iso-active {
+	color: #212121;
+	text-decoration: line-through
+}
+
+.contact-form-wrapper .btn-style-4 {
+	font-family: "Open Sans", Helvetica, sans-serif;
+	border: 1px solid #e9e9e9;
+    background-color: transparent;
+    color: #777 !important;
+}
+
+.contact-form-wrapper .btn-style-4:hover {
+	color: #ececec !important;
+}
+
+footer .logo {
+	height: 65px
+}
+
+footer .copyright {
+	margin-top: 25px
+}
+

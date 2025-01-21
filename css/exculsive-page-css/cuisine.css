@@ -1,0 +1,145 @@
+
+/* Exclusive Page CSS - Cuisine */
+
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+
+body {
+	font-weight: normal
+}
+
+section {
+	border-bottom: 0px
+}
+
+a:hover,
+a:focus,
+.text-brown {
+	color: #BFAB9E;
+}
+
+.great-vibes {
+	font-family: 'Great Vibes', cursive;
+    color: #BFAB9E;
+    text-transform: none;
+    font-size: 45px;
+	line-height: 1.2;
+}
+
+.btn-style-4 {
+    border: 1px solid #BFAB9E;
+    background-color: transparent;
+    color: #BFAB9E !important;
+}
+
+.btn-style-4:hover {
+    border: 1px solid #BFAB9E;
+    color: #ececec !important;
+    background-color: #BFAB9E !important;
+}
+
+.food-menu {
+	display: block;
+    margin-bottom: 10px;
+    padding: 30px 20px;
+    overflow: hidden;
+}
+
+.food-menu .menu-item:hover ,
+.food-menu .menu-item.active	{
+	margin-left: -15px
+}
+
+.food-menu .menu-item:hover .top .name,
+.food-menu .menu-item.active .top .name{
+	color: #BFAB9E;
+}
+
+.food-menu .menu-item {
+	margin-bottom: 30px;
+    clear: both;
+	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+
+.food-menu .menu-item .top {
+	clear: both;
+    width: 100%;
+    min-height: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.food-menu .menu-item .top .name {
+	padding: 1px 5px;
+    display: inline-block;
+    float: left;
+	font-size: 17px;
+	text-transform: none;
+	margin: auto;
+	color: #3e3e3e;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+}
+
+.food-menu .menu-item .top .price {
+	float: right;
+	position: absolute;
+    right: 0;
+    background: #fff;
+	padding: 0px 10px ; 
+	font-weight: bold;
+    color: #BFAB9E;
+}
+
+.food-menu .menu-item .description {
+	font-size: 13px;
+    font-family: 'Droid Serif', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	letter-spacing: 0.5px;
+	margin-top: 5px;
+	color: #9e9e9e;
+    padding-left: 5px
+}
+
+.food-menu .menu-item .top .name:after {
+	content: '';
+    display: inline;
+    float: right;
+    border-bottom: 1px dashed #d2d2d2;
+    width: 100%;
+    position: absolute;
+    margin-left: 5px;
+    bottom: 15px;
+}
+
+.food-gallery {
+	position: relative
+}
+
+.food-gallery img {
+	width: 100%
+}
+
+.food-gallery .tag {
+	position: absolute;
+	bottom: 15px;
+	background-color: #fff;
+	width: 70%;
+	left:0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center
+}
+
+.food-gallery .tag .name {
+	margin: 15px 0px 5px 0px;
+	text-transform: none
+}
+
+.food-gallery .tag .price {
+	font-weight: bold;
+}
+
+

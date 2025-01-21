@@ -1,0 +1,67 @@
+
+/* Exclusive Page CSS - Freelancer */
+
+
+
+.main-nav {
+	border-bottom: 0px !important
+}
+
+
+
+.fs-menu-button a,
+.fs-menu-button a:hover,
+.fs-menu-button a:focus,
+.fs-menu-close:hover,
+.fs-menu-close:focus {
+	background-color: #fff;
+	border: 0px;
+	color: #3e3e3e
+}
+
+.tab-style-1 li {
+	float:none;
+	display: block
+}
+
+.social-icon {
+	position: fixed;
+	left:0;
+	top: 35%;
+	padding-left: 10px
+}
+
+.social-icon ul li {
+	float: none
+}
+
+.infography-style-2 {
+	font-weight: normal
+}
+
+.infography-style-2:hover .infography-icon i {
+	color: #212121 !important;
+}
+
+.fs-menu .inner-nav {
+	border-bottom: 0px;
+}
+
+.copyright {
+	letter-spacing: 1px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.map {
+	height: 95vh
+}
+
+.bg-dark .form-control {
+    border: 1px solid #ececec
+}
+
+.map #google-map {
+	height: 100%
+}
+
